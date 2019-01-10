@@ -1,13 +1,18 @@
-public class selectionSort {
-    Void sort(int arr[]) {
-        int n = arr.length;
+public class SelectionSort {
+    static void sort(int arr[], int ind) {
+        int minInd = ind;
+                for (int i = ind; i <arr.length; i++)
+                {
+                    if (arr[i] < arr[minInd])
+                    {
+                        swap(arr[],i,minInd);{
+                        minInd = i;
+                    }
 
-        for (int i = 0; i < n - 1; i++)
-        {
-            int min
+                    return minInd;
+                }
 
-        }
+            }
 
 
-    }
-}
+        }}
