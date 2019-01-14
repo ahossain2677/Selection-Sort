@@ -26,6 +26,15 @@ public class SelectionSort
         arr[j] = x;
 
     }
-    public static void int minInd
+    public static void int minInd(int [] arr, int minInd )
+    {
+        int min = arr[minInd];
+        for (int i = minInd; i<arr.length;i++)
+        {
+            if (arr[i] < minInd){
+                minInd = arr[i];
+            }
+            return minInd;
         
+}
 }
